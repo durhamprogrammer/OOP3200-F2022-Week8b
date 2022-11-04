@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.durhamcollege.oop3200f2022week8b.PersonViewController">
+   <children>
+      <Button fx:id="GetPersonButton" layoutX="263.0" layoutY="320.0" mnemonicParsing="false" onAction="#GetPersonButton_Clicked" text="Get Person" />
+      <Label fx:id="NameLabel" layoutX="185.0" layoutY="152.0" text="Name:" />
+      <Label fx:id="AgeLabel" layoutX="191.0" layoutY="209.0" text="Age:" />
+      <TextField fx:id="NameTextField" editable="false" layoutX="226.0" layoutY="148.0" />
+      <TextField fx:id="AgeTextField" editable="false" layoutX="226.0" layoutY="205.0" />
+      <Label layoutX="163.0" layoutY="32.0" text="Person Information">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
